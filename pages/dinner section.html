@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Veg Breakfast Menu</title>
+  <style>
+   <body 
+      background-color="#f0f8ff"/>
+    .menu-section {
+      margin-bottom: 30px;
+    }
+    .item-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+  <h1> ...**FOOD MENU**...</h1>
+  <p><strong>Available Time:</strong> </p>
+  <!-- Optional: Datalist for Suggestion Input -->
+   <div class="datalist-search">
+    <h2>Search Food Item</h2>
+    <input list="all-foods" name="search-food" placeholder="Start typing...">
+    <datalist id="all-foods ">
+      <option value="Idli sambhar = ">
+      <option value="Dosa">
+      <option value="Mendu Vada">
+      <option value="Poha">
+      <option value="Aloo Paratha">
+      <option value="Paneer Paratha">
+     <option value="Bread Butter">
+      <option value="Bread Jam">
+      <option value="Chole Bhature">
+      <option value="Sabudana Khichdi">
+      <option value="Misal Pav">
+      <option value="Usal Pav">
+        <option value="Pav Bhaji">
+      <option value="Sheera">
+      <option value="Kanda poha">
+      <option value="veg sandwhich ">
+      <option value="Cheese Sandwhich">
+      <option value="Toasted Bread">
+     <option value="Bread Butter">
+      <option value="Bread Jam">
+      <option value="Chole Bhature">
+      <option value="Sabudana Khichdi">
+      <option value="Misal Pav">
+      <option value="Usal Pav">
+    </datalist>
+    <br>
+   </div>
+   <title>Breakfast Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 30px;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    .menu-section {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 5px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .menu-item label {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    .menu-item input[type="checkbox"] {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+
+    .price {
+      font-weight: bold;
+      color: #27ae60;
+    }
+
+    .time-slot {
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+<div class="menu-section">
+    <h1>Breakfast Menu</h1>
+    <div class="time-slot">
+      <p><strong>Available Time:</strong> 7:00 AM – 10:30 AM</p>
+    </div>
+
+    <!-- 30 Breakfast Food Items -->
+    <div class="menu-item"><label><input type="checkbox"> Idli Sambar</label><span class="price">₹40</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Dosa</label><span class="price">₹50</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Medu Vada</label><span class="price">₹35</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Upma</label><span class="price">₹30</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Poha</label><span class="price">₹30</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Sabudana Khichdi</label><span class="price">₹35</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Sheera</label><span class="price">₹25</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Misal Pav</label><span class="price">₹40</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Usal Pav</label><span class="price">₹40</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Pav Bhaji</label><span class="price">₹60</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Vegetable Sandwich</label><span class="price">₹45</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Cheese Sandwich</label><span class="price">₹55</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Toast with Butter</label><span class="price">₹25</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Bread Jam</label><span class="price">₹25</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Cornflakes with Milk</label><span class="price">₹40</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Oats Porridge</label><span class="price">₹40</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Aloo Paratha</label><span class="price">₹50</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Paneer Paratha</label><span class="price">₹60</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chole Bhature</label><span class="price">₹70</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Vegetable Cutlet</label><span class="price">₹35</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Dhokla</label><span class="price">₹40</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Thepla</label><span class="price">₹35</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Puran Poli</label><span class="price">₹30</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Rice Khichdi</label><span class="price">₹45</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Moong Dal Chilla</label><span class="price">₹35</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Besan Chilla</label><span class="price">₹35</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Sprouts Salad</label><span class="price">₹40</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Fruit Salad</label><span class="price">₹50</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Veg Maggie</label><span class="price">₹40</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Stuffed Roti Roll</label><span class="price">₹45</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Idli Fry</label><span class="price">₹40</span></div>
+  </div>
+  <title>Veg Lunch / Dinner Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 30px;
+    }
+    .menu-section {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .menu-item label {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    .menu-item input[type="checkbox"] {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+
+    .price {
+      font-weight: bold;
+      
+    }
+
+    .time-slot {
+      margin-bottom: 20px;
+      font-size: 16px;
+      
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu-section">
+    <h1>Veg Lunch / Dinner Menu</h1>
+    <div class="time-slot">
+      <p><strong>Lunch Time:</strong> 12:00 PM – 3:00 PM</p>
+      <p><strong>Dinner Time:</strong> 7:00 PM – 10:30 PM</p>
+    </div>
+    <!-- Food Items -->
+    <div class="menu-item"><label><input type="checkbox"> Paneer Butter Masala</label><span class="price">₹120</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Veg Kolhapuri</label><span class="price">₹100</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Dal Tadka</label><span class="price">₹70</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Jeera Rice</label><span class="price">₹60</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Veg Pulao</label><span class="price">₹100</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Mix Veg</label><span class="price">₹90</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Aloo Gobi</label><span class="price">₹85</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Palak Paneer</label><span class="price">₹110</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chole Masala</label><span class="price">₹95</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Rajma Curry</label><span class="price">₹90</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Malai Kofta</label><span class="price">₹120</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Kaju Curry</label><span class="price">₹140</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Bhindi Fry</label><span class="price">₹85</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Baingan Bharta</label><span class="price">₹90</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Corn Palak</label><span class="price">₹100</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Stuffed Capsicum</label><span class="price">₹100</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Veg Handi</label><span class="price">₹110</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Dal Fry</label><span class="price">₹75</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Roti (Plain)</label><span class="price">₹10</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Butter Naan</label><span class="price">₹20</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Tandoori Roti</label><span class="price">₹15</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Plain Rice</label><span class="price">₹50</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Curd</label><span class="price">₹20</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Raita</label><span class="price">₹30</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Paneer Bhurji</label><span class="price">₹110</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Veg Manchurian</label><span class="price">₹110</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Navratan Korma</label><span class="price">₹130</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Kadai Paneer</label><span class="price">₹120</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Shahi Paneer</label><span class="price">₹125</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Onion Salad</label><span class="price">₹20</span></div>
+  </div>
+  <title>Non-Veg Lunch / Dinner Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fdfdfd;
+      padding: 30px;
+    }
+
+    h1, h2 {
+      
+    }
+
+    .menu-section {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .menu-item label {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+    }
+
+    .menu-item input[type="checkbox"] {
+      margin-right: 10px;
+      transform: scale(1.2);
+    }
+
+    .price {
+      font-weight: bold;
+    
+    }
+
+    .time-slot {
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+   <div class="menu-section">
+    <h1>Non-Veg Lunch / Dinner Menu</h1>
+    <div class="time-slot">
+      <p><strong>Lunch Time:</strong> 12:00 PM – 3:00 PM</p>
+      <p><strong>Dinner Time:</strong> 7:00 PM – 10:30 PM</p>
+    </div>
+
+    <!-- Non-Veg Food Items -->
+    <div class="menu-item"><label><input type="checkbox"> Chicken Curry</label><span class="price">₹150</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Butter Chicken</label><span class="price">₹180</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Biryani</label><span class="price">₹160</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Mutton Curry</label><span class="price">₹200</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Mutton Biryani</label><span class="price">₹220</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Egg Curry</label><span class="price">₹100</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Fish Curry</label><span class="price">₹170</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Tandoori Chicken</label><span class="price">₹200</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Tikka Masala</label><span class="price">₹180</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Prawns Curry</label><span class="price">₹190</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Keema Masala</label><span class="price">₹160</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Handi</label><span class="price">₹170</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Egg Biryani</label><span class="price">₹130</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken 65</label><span class="price">₹140</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Fried Fish</label><span class="price">₹180</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Mutton Rogan Josh</label><span class="price">₹210</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Korma</label><span class="price">₹160</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Do Pyaza</label><span class="price">₹160</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Egg Bhurji</label><span class="price">₹90</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Fish Fry (Pomfret)</label><span class="price">₹200</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Fried Rice</label><span class="price">₹140</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Lollipop</label><span class="price">₹150</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Prawns Masala</label><span class="price">₹190</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Kolhapuri</label><span class="price">₹170</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Mutton Keema</label><span class="price">₹200</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Fish Tikka</label><span class="price">₹180</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Seekh Kebab</label><span class="price">₹160</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Egg Fried Rice</label><span class="price">₹120</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Tandoori Fish</label><span class="price">₹200</span></div>
+    <div class="menu-item"><label><input type="checkbox"> Chicken Malai Tikka</label><span class="price">₹170</span></div>
+  </div>
+</head>
+</body>
+</html>
