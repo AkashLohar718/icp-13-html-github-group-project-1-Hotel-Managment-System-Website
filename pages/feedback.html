@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Feedback Form</title>
+</head>
+<body>
+    <h2>Hotel Feedback Form</h2>
+    <p><b>We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve!</b></p>
+    <br/>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" placeholder="Enter Your Full Name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" placeholder="Enter Your Email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" placeholder="Enter Your Phone Number" required><br><br>
+
+        <label for="room">Room Number:</label><br>
+        <input type="text" id="room" placeholder="Room Number" required><br><br>
+
+        <label for="rating">Rate Your Stay:</label><br>
+        <select id="rating" required>
+            <option value="">--Select--</option>
+            <option value="5">Excellent (5)</option>
+            <option value="4">Very Good (4)</option>
+            <option value="3">Good (3)</option>
+            <option value="2">Fair (2)</option>
+            <option value="1">Poor (1)</option>
+        </select><br><br>
+
+        <label for="comments">Comments or Suggestions:</label><br>
+        <input type="text" id="comments"  placeholder="Write your feedback here...."  requried> <br><br>
+
+        <input type="submit" value="Submit Feedback">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
