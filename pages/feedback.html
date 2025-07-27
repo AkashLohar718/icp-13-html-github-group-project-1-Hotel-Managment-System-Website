@@ -3,7 +3,7 @@
 <head>
     <title>Hotel Feedback Form</title>
 </head>
-<body>
+<body bgcolor="#f0f8ff">
     <h2>Hotel Feedback Form</h2>
     <p><b>We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve!</b></p>
     <br/>
@@ -20,21 +20,20 @@
         <label for="room">Room Number:</label><br>
         <input type="text" id="room" placeholder="Room Number" required><br><br>
 
-        <label for="rating">Rate Your Stay:</label><br>
-        <select id="rating" required>
-            <option value="">--Select--</option>
-            <option value="5">Excellent (5)</option>
-            <option value="4">Very Good (4)</option>
-            <option value="3">Good (3)</option>
-            <option value="2">Fair (2)</option>
-            <option value="1">Poor (1)</option>
+        <label for="rating">Rate Your Experience For Hotel:</label><br>
+        <label>Please rate us:</label><br>
+       <label><input type="radio" name="rating" value="5"> Excellent (5)</label><br>
+       <label><input type="radio" name="rating" value="4"> Very Good (4)</label><br>
+       <label><input type="radio" name="rating" value="3"> Good (3)</label><br>
+       <label><input type="radio" name="rating" value="2"> Fair (2)</label><br>
+       <label><input type="radio" name="rating" value="1"> Poor (1)</label><br>
+
         </select><br><br>
 
         <label for="comments">Comments or Suggestions:</label><br>
         <input type="text" id="comments"  placeholder="Write your feedback here...."  requried> <br><br>
 
         <input type="submit" value="Submit Feedback">
-        <input type="reset" value="Reset">
     </form>
 </body>
 </html>
