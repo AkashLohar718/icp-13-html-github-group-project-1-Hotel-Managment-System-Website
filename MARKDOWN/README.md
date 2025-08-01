@@ -168,3 +168,5 @@ This project is created to help beginners understand:
 ## 📄 License
 
 This project is for **educational purposes only**. No commercial use permitted without permission.
+
+---
