@@ -24,7 +24,7 @@ The website includes links to all main pages:
 <a href="about.html">About Us</a>
 <a href="contact.html">Contact</a>
 ```
-![indexpage](../images/index.png)
+![indexpage](/images/index.png)
 
 ## ✨ Project Features
 
@@ -50,7 +50,7 @@ The room page includes:
 - Pricing and selection guidance
 - Link to the booking form
 
-![indexpage](../images/Room.png)
+![indexpage](/images/Room.png)
 
 ---
 
@@ -61,7 +61,7 @@ Dinner menu includes:
 - Menu items with prices (e.g., Paneer, Biryani, Thali)
 - Simple unordered list layout
 
-![indexpage](../images/Dinner.png)
+![indexpage](/images/Dinner.png)
 
 ---
 
@@ -74,7 +74,7 @@ Basic HTML form includes:
 - "Remember Me" checkbox
 - Submit button
 
-![indexpage](../images/Admin.png)
+![indexpage](/images/Admin.png)
 
 ---
 
@@ -84,7 +84,7 @@ Displays:
 - 📧 Email ID: `grandpalacehotel@example.com`
 - 📱 Phone Number: `+91 9387887422`
 
-![indexpage](../images/contact.png)
+![indexpage](/images/contact.png)
 
 ---
 
@@ -96,7 +96,7 @@ A simple form with:
 - Feedback textarea
 - Submit button
 
-![indexpage](../images/Feedback.png)
+![indexpage](/images/Feedback.png)
 
 ---
 
@@ -109,7 +109,7 @@ Form contains:
 - CVV
 - Submit button
 
-![indexpage](../images/Payment.png)
+![indexpage](/images/Payment.png)
 
 ---
 
