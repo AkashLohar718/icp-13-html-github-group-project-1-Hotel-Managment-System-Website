@@ -168,8 +168,5 @@ This project is created to help beginners understand:
 ## 📄 License
 
 This project is for **educational purposes only**. No commercial use permitted without permission.
-<<<<<<< HEAD
 
 ---
-=======
->>>>>>> c4dd2de (readme file added)
