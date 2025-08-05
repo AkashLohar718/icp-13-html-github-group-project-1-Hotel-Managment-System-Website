@@ -7,25 +7,23 @@
 <body bgcolor="#f0f8ff">
     
 
-    <center>><h1>Room Booking Form</h1></center
+    <center><h1>Room Booking Form</h1></center
 
-    <form action="payment.html" method="get">
+    <form action="pages/makepayment.html" method="get">
 
         <h3>Personal Information</h3>
 
         <label for="fullname">Full Name:</label><br>
-        <input type="text" id="fullname" name="fullname" required><br><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
 
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" id="email" name="email" placeholder="Email" required><br><br>
 
         <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="Phone" required><br><br>
 
         <label for="aadhar">Upload Your Aadhar Card:</label><br>
-        <input type="file" id="aadhar" name="aadhar" accept="image/*,application/pdf" required><br><br>
-
-
+        <input type="file" id="aadhar" name="aadhar" accept="image/*,application/pdf" placeholder="Aadhar Card" required><br><br>
         <h3>Booking Details</h3>
         <label for="roomtype">Select Room Type:</label><br>
         <select id="roomtype" name="roomtype" required>
@@ -46,7 +44,7 @@
 
         <label for="checkout">Check-Out Date:</label><br>
         <input type="date" id="checkout" name="checkout" required><br><br>
-        Check Room Details:<br>
+        <b>Check Room Details:</b><br>
         <a href="roomdetails.html" id="roomdetails" >View Room Details</a><br><br>
 
         <label for="notes">Additional Requests:</label><br>

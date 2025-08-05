@@ -1,7 +1,7 @@
 
 # 🏨 Hotel Management System - Hotel Grand Palace
 
-Welcome to the **Hotel Management System** project built using only **HTML5**.  
+Welcome to the **Hotel Management System** project built using only **HTML5**.
 This mini project is designed for beginners to understand how a simple hotel website can be structured using basic HTML pages — no CSS or JavaScript required.
 
 ---
